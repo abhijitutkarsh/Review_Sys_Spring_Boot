@@ -13,8 +13,7 @@ public class EmailService {
 
     private static final Logger logger = LoggerFactory.getLogger(EmailService.class);
 
-    private static final String BREVO_API_KEY = "";
-    private static final String BREVO_API_URL = "";
+
     private static final OkHttpClient client = new OkHttpClient();
 
     /**
