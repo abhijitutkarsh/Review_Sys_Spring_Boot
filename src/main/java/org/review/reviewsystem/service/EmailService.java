@@ -13,8 +13,8 @@ public class EmailService {
 
     private static final Logger logger = LoggerFactory.getLogger(EmailService.class);
 
-    private static final String BREVO_API_KEY = "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"; // Use your real Brevo API key
-    private static final String BREVO_API_URL = "https://api.brevo.com/v3/smtp/email";
+    private static final String BREVO_API_KEY = ""; // Use your real Brevo API key
+    private static final String BREVO_API_URL = "";
     private static final OkHttpClient client = new OkHttpClient();
 
     /**
